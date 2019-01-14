@@ -21,8 +21,8 @@ public class SequenceAssemblyMELD
 		{
 
 		String[] filename = new String[2];
-		filename[0]="C:\\Documents\\ULg\\DeNovo\\";
-		filename[1]="alldenovocandidates_MELD3_2f256c3d9388907dbab8_.csv";
+		filename[0]="C:\\Documents";
+		filename[1]="name.csv";
 		ReadLines(filename);
 
 		}
