@@ -1,0 +1,7 @@
+From an existing de novo identification job performed in PEAKS Studio (v 7.5 tested),
+1. Open the de novo results page.
+2. Select the "Summary" tab.
+3. Click on "Export".
+4. In the "Text Formats" tab, check "All de novo candidates (all de novo candidates.csv), uncheck the other options.
+5. Save the .csv file in a working folder.
+6. Update the SequenceAssemblyMELD.java code with the correct path (line 24) and name (line 25) pointing to the exported .csv file.
